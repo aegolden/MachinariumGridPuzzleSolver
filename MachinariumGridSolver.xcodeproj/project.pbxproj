@@ -13,6 +13,7 @@
 		0613CD101B6C4E4E00DC5429 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0613CD0E1B6C4E4E00DC5429 /* MainMenu.xib */; };
 		0613CD1C1B6C4E4E00DC5429 /* MachinariumGridSolverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0613CD1B1B6C4E4E00DC5429 /* MachinariumGridSolverTests.m */; };
 		0613CD271B6C4F0800DC5429 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0613CD261B6C4F0800DC5429 /* BoardView.m */; };
+		0613CD2A1B6C5B2200DC5429 /* BoardSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0613CD291B6C5B2200DC5429 /* BoardSolver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 		0613CD251B6C4F0800DC5429 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
 		0613CD261B6C4F0800DC5429 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
 		0613CD281B6C4F1F00DC5429 /* BoardState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardState.h; sourceTree = "<group>"; };
+		0613CD291B6C5B2200DC5429 /* BoardSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardSolver.m; sourceTree = "<group>"; };
+		0613CD2B1B6C5B6500DC5429 /* BoardSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardSolver.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 			children = (
 				0613CD071B6C4E4E00DC5429 /* AppDelegate.h */,
 				0613CD081B6C4E4E00DC5429 /* AppDelegate.m */,
+				0613CD2B1B6C5B6500DC5429 /* BoardSolver.h */,
+				0613CD291B6C5B2200DC5429 /* BoardSolver.m */,
 				0613CD281B6C4F1F00DC5429 /* BoardState.h */,
 				0613CD251B6C4F0800DC5429 /* BoardView.h */,
 				0613CD261B6C4F0800DC5429 /* BoardView.m */,
@@ -220,6 +225,7 @@
 				0613CD0B1B6C4E4E00DC5429 /* main.m in Sources */,
 				0613CD091B6C4E4E00DC5429 /* AppDelegate.m in Sources */,
 				0613CD271B6C4F0800DC5429 /* BoardView.m in Sources */,
+				0613CD2A1B6C5B2200DC5429 /* BoardSolver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

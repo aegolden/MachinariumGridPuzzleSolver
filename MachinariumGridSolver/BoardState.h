@@ -13,7 +13,11 @@
 typedef enum {
     Off,
     On,
-    Red
+    Red,
+    Left,
+    Right,
+    Up,
+    Down
 } State;
 
 typedef State Board[5][5];

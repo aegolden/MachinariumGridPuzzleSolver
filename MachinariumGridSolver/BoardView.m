@@ -63,8 +63,18 @@
                 case Red:
                     CGContextSetFillColorWithColor(context, [NSColor redColor].CGColor);
                     break;
+                default:
+                    break;
             }
             CGContextFillRect(context, CGRectMake(j * cellSize, k * cellSize, cellSize, cellSize));
+        }
+    }
+
+    if (_hasSolution) {
+        for (int j = 0; j < 25; j++) {
+            const BoardLocation location = _solution[j];
+            const CGRect textRect = CGRectInset(CGRectMake(location.x * cellSize, location.y * cellSize, cellSize, cellSize), 20, 20);
+            [[NSString stringWithFormat:@"%d", j] drawInRect:textRect withAttributes:nil];
         }
     }
 }

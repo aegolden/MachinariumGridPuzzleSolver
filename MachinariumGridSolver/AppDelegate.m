@@ -10,6 +10,8 @@
 
 #import "BoardView.h"
 #import "BoardState.h"
+#import "BoardSolver.h"
+
 
 @interface AppDelegate ()
 @property (weak) IBOutlet NSWindow *window;
@@ -23,6 +25,15 @@
 }
 
 - (IBAction)solve:(id)sender {
+    Board board;
+    [_view getBoard:board];
+
+    Solution solution;
+    if (SolveBoard(board, solution, 0)) {
+        [_view setSolution:solution];
+    } else {
+        NSLog(@"Failed to solve");
+    }
 }
 
 @end

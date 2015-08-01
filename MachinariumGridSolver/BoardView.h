@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BoardView.h
 //  MachinariumGridSolver
 //
 //  Created by Aaron Golden on 7/31/15.
@@ -8,7 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+#import "BoardState.h"
+
+@interface BoardView : NSView
+
+- (void)setSolution:(Solution)solution;
+- (void)getBoard:(Board)board;
 
 @end
-

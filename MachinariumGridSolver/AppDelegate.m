@@ -8,19 +8,21 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+#import "BoardView.h"
+#import "BoardState.h"
 
+@interface AppDelegate ()
 @property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet BoardView *view;
+- (IBAction)solve:(id)sender;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+- (IBAction)solve:(id)sender {
 }
 
 @end

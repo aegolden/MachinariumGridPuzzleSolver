@@ -12,6 +12,7 @@
 		0613CD0D1B6C4E4E00DC5429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0613CD0C1B6C4E4E00DC5429 /* Images.xcassets */; };
 		0613CD101B6C4E4E00DC5429 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0613CD0E1B6C4E4E00DC5429 /* MainMenu.xib */; };
 		0613CD1C1B6C4E4E00DC5429 /* MachinariumGridSolverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0613CD1B1B6C4E4E00DC5429 /* MachinariumGridSolverTests.m */; };
+		0613CD271B6C4F0800DC5429 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0613CD261B6C4F0800DC5429 /* BoardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 		0613CD151B6C4E4E00DC5429 /* MachinariumGridSolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachinariumGridSolverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0613CD1A1B6C4E4E00DC5429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0613CD1B1B6C4E4E00DC5429 /* MachinariumGridSolverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachinariumGridSolverTests.m; sourceTree = "<group>"; };
+		0613CD251B6C4F0800DC5429 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		0613CD261B6C4F0800DC5429 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		0613CD281B6C4F1F00DC5429 /* BoardState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardState.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,9 @@
 			children = (
 				0613CD071B6C4E4E00DC5429 /* AppDelegate.h */,
 				0613CD081B6C4E4E00DC5429 /* AppDelegate.m */,
+				0613CD281B6C4F1F00DC5429 /* BoardState.h */,
+				0613CD251B6C4F0800DC5429 /* BoardView.h */,
+				0613CD261B6C4F0800DC5429 /* BoardView.m */,
 				0613CD0C1B6C4E4E00DC5429 /* Images.xcassets */,
 				0613CD0E1B6C4E4E00DC5429 /* MainMenu.xib */,
 				0613CD051B6C4E4E00DC5429 /* Supporting Files */,
@@ -212,6 +219,7 @@
 			files = (
 				0613CD0B1B6C4E4E00DC5429 /* main.m in Sources */,
 				0613CD091B6C4E4E00DC5429 /* AppDelegate.m in Sources */,
+				0613CD271B6C4F0800DC5429 /* BoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

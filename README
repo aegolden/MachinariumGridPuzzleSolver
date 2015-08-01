@@ -1,0 +1,6 @@
+A simple solver for the grid puzzle in the greenhouse room in Machinarium.
+
+Use the mouse to set the red squares and hit the Solve button to get a solution.
+
+If a solution is found the cells will be labeled from 0 to 24.  This is an order
+of moves that will solve the puzzle.
